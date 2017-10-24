@@ -9,8 +9,13 @@ Author: Jon Bonso
 
 
 ## Sample Command Line commands via Curl:
+
+### Single Medallion/Cab Query (Cached by Default)
 `curl -X GET 'http://localhost:8080/getCountByMedallionAndPickupDatetime?medallionId=000318C2E3E6381580E5C99910A60668&pickupDate=2013-12-03'`
-`curl -X GET 'http://localhost:8080/getCountByMedallionAndPickupDatetime?medallionId=000318C2E3E6381580E5C99910A60668,00377E15077848677B32CE184CE7E871&pickupDate=2013-12-03'`
+
+
+### Multiple Medallion/Cab Query (Without Cache: cached=false)
+`curl -X GET 'http://localhost:8080/getCountByMedallionAndPickupDatetime?cached=false&medallionId=000318C2E3E6381580E5C99910A60668,00377E15077848677B32CE184CE7E871&pickupDate=2013-12-03'`
 
 
 ## Sample API Calls (WEB):
