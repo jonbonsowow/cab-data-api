@@ -2,6 +2,7 @@
 # Cab Data API
 
 Author: Jon Bonso
+![alt text](https://raw.githubusercontent.com/jsbonso/cab-data-api/master/sampleresponse.png)
 
 ## Running the application:
 
@@ -19,8 +20,6 @@ Author: Jon Bonso
 
 
 ## Sample API Calls (WEB):
-
-![alt text](https://raw.githubusercontent.com/jsbonso/cab-data-api/master/sampleresponse.png)
 
 ### Single Medallion/Cab Query WITH Caching:
 
