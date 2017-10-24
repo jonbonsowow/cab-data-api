@@ -6,7 +6,7 @@ Author: Jon Bonso
 
 ## Running the application:
 
-./gradlew build && java -jar build/libs/cab-data-api-0.0.1-SNAPSHOT.jar
+`./gradlew build && java -jar build/libs/cab-data-api-0.0.1-SNAPSHOT.jar`
 
 
 ## Sample Command Line commands via Curl:
